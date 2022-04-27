@@ -1,25 +1,23 @@
 import React, { useState } from 'react';
 import NavTabs from './NavTabs';
-import Home from './pages/Home';
 import About from './pages/About';
-import Blog from './pages/Blog';
+import header from './header';
 import Contact from './pages/Contact';
+import projects from './pages/projects';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
   // TODO: Add a comment describing the functionality of this method
   // renders each page if the current page is home render home page etc
   const renderPage = () => {
-    if (currentPage === 'Home') {
-      return <Home />;
-    }
     if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === 'Blog') {
-      return <Blog />;
+    if (currentPage === 'projects') {
+      return <projects />;
     }
+    if (currentPage === 'Contact')
     return <Contact />;
   };
 
