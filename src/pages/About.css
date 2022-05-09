@@ -13,8 +13,24 @@
     background-size: cover;
     height: 800px;
     margin-right: 35px;
-    margin-top: 35px;
 }
 .card-text {
     font-size: 150px;
+}
+.aymntitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+
+    
+}
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:100px !important;
+    margin-top:20px !important;
 }

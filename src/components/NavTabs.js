@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
-// desctructring currentPage and handle page change so we can extract key value pairs
 const styles = {
   navbar: {
     justifyContent: 'flexEnd',
@@ -24,6 +22,11 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
       <Link className="nav-link" to="/contact">
           Contact
+          </Link>
+      </li>
+      <li className="nav-item">
+      <Link className="nav-link" to="/resume">
+          Resume
           </Link>
       </li>
     </ul>

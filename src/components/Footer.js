@@ -1,4 +1,5 @@
 import React from "react";
+import '../pages/About.css';
 
 
 function FooterNav() {
@@ -13,7 +14,7 @@ function FooterNav() {
                     <a href="https://www.linkedin.com/in/alexis-dorrity-a29438235/"><i className="fa-brands fa-linkedin"></i></a>
                   </div>
                   <div className="col">
-                    <a href="https://docs.google.com/document/d/1vjzlh3DQ2YeO1eLUGHWWlO3TJS90sVp1bZVAZ-fdZkI/edit?usp=sharing"><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://docs.google.com/document/d/1vjzlh3DQ2YeO1eLUGHWWlO3TJS90sVp1bZVAZ-fdZkI/edit?usp=sharing"><i className="fa-brands fa-instagram" style={{height:"10rem"}}></i></a>
                   </div>
                 </div>
               </div>
